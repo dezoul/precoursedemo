@@ -1,0 +1,143 @@
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+}
+
+img{
+  max-width: 100%
+}
+
+section{
+  border: 1px solid black;
+  padding: 5% 10%;
+  min-height: 40vh
+}
+
+/*text*/
+
+h1,h2,h3,h4,h5,h6{
+  text-align: center;
+}
+
+span{
+  font-weight: bold;
+  color: darkgreen;
+}
+
+
+.tittle-backgrond-color{
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 5px;
+}
+
+/*helper classes*/
+.grid img{  width: 100%}
+.img-div{font-size: 0;}
+.round{border-radius: 50%;}
+.center{text-align: center;}
+.no-pad{padding: 0;}
+.full-width{
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.no-padding{
+  padding: 0!important;
+}
+.hidden-text{
+  display: -webkit-box!important;
+  display: -ms-flexbox!important;
+  display: flex!important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          margin: 2%;
+}
+.hidden-text p{
+  opacity: 0;
+  -webkit-transition: 2s;
+  transition: 2s;
+  background-color: rgba(255,255,255, 0.5);
+  padding: 5%;
+}
+.hidden-text:hover p{
+  opacity: 1;
+}
+
+.border-top{
+  border-top: 1px solid black;
+  margin: 2%;
+}
+.h1{
+  background-image: url(https://unsplash.it/600/200/?random)
+}
+
+/*headings*/
+
+.h2-1{
+  background-image: url("https://unsplash.it/600/600/?random");
+}
+
+/*tiles*/
+
+.t2-1,.t2-2,.t2-3,.t3-1,.t3-3, .pic{
+  background-image: url(https://unsplash.it/400/200/?random);
+  min-height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+
+.t3-color{
+  background-color: #ade;
+  min-height: 30vh;
+}
+
+
+/*gallery*/
+
+/*
+.pin-board {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 2px solid #CCCCCC;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 1300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.pin-board div{
+  display: inline-block;
+  width: 31%;
+  margin: 2% auto ;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 0px;
+          flex: 0 1 0
+}*/
